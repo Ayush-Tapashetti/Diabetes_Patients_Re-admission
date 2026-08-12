@@ -34,7 +34,7 @@
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 
 This application analyses electronic health records from **130 US hospitals (1999–2008)** to identify the factors most strongly correlated with **early patient readmission** (within 30 days of discharge).
 
@@ -123,7 +123,7 @@ The application follows the **Single Responsibility Principle** — each class d
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 
@@ -154,7 +154,7 @@ python -c "import numpy, pandas, matplotlib, seaborn, sklearn, tkinter; print('A
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 python Python_Proj_Final.py
@@ -164,7 +164,7 @@ The GUI window opens automatically.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 | Property | Value |
 |---|---|
@@ -192,7 +192,7 @@ The GUI window opens automatically.
 
 ---
 
-## 🖱️ How to Use the Application
+##  How to Use the Application
 
 **1. Load CSV**
 - Click `📂 Load CSV File` in the sidebar
