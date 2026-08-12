@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏥 Diabetes Patient Readmission Risk Analyser
+#  Diabetes Patient Readmission Risk Analyser
 
 **A full data-science pipeline — from raw EHR CSVs to a Random Forest risk model — wrapped in a Tkinter desktop GUI.**
 
@@ -14,7 +14,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 1. [Project Overview](#-project-overview)
 2. [Features](#-features)
@@ -40,16 +40,16 @@ This application analyses electronic health records from **130 US hospitals (199
 
 The project covers the full data science pipeline end to end:
 
-- 📥 Raw CSV loading and smart data cleaning
-- 🔤 Regex-based ICD-9 medical code classification (Expert Module)
-- 📊 Statistical analysis and feature engineering
-- 📈 Six interactive Matplotlib/Seaborn visualisations (embedded in GUI)
-- 🌲 Random Forest machine learning model with cross-validation
-- 🖥️ A fully featured Tkinter desktop GUI
+-  Raw CSV loading and smart data cleaning
+-  Regex-based ICD-9 medical code classification (Expert Module)
+-  Statistical analysis and feature engineering
+-  Six interactive Matplotlib/Seaborn visualisations (embedded in GUI)
+-  Random Forest machine learning model with cross-validation
+-  A fully featured Tkinter desktop GUI
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
@@ -63,7 +63,7 @@ The project covers the full data science pipeline end to end:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 project/
@@ -85,7 +85,7 @@ project/
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 The application follows the **Single Responsibility Principle** — each class does exactly one job.
 
@@ -219,7 +219,7 @@ The GUI window opens automatically.
 
 ---
 
-## 📈 Visualisations
+##  Visualisations
 
 | # | Chart | Type | Insight |
 |---|---|---|---|
@@ -232,7 +232,7 @@ The GUI window opens automatically.
 
 ---
 
-## 🌲 Machine Learning Model
+##  Machine Learning Model
 
 ### Algorithm: Random Forest Classifier
 
@@ -261,7 +261,7 @@ RandomForestClassifier(
 `time_in_hospital`, `num_lab_procedures`, `num_medications`, `number_emergency`, `number_inpatient`, `age_num`, `gender_enc`
 
 
-## 🔤 Expert Module (Regex)
+##  Expert Module (Regex)
 
 The `_classify_diagnosis()` static method in `DataCleaner` maps raw ICD-9 codes to clinical categories using `re.match()`.
 
@@ -281,7 +281,7 @@ patterns = [
 
 `re.sub(r"\s+", "", code)` is also used to strip whitespace from raw codes before matching.
 
-## 📦 Libraries Used
+##  Libraries Used
 
 | Library | Version | Purpose |
 |---|---|---|
