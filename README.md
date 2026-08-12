@@ -9,8 +9,6 @@
 ![scikit--learn](https://img.shields.io/badge/scikit--learn-RandomForest-orange?logo=scikitlearn)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
-*University Data Analysis Project — UCI Diabetes 130-US Hospitals (1999–2008)*
-*Course: CS & AI — Python Data Analysis*
 
 </div>
 
@@ -312,9 +310,3 @@ patterns = [
 | `chart_ml_confusion_matrix.png` | Run ML | Model confusion matrix |
 
 
-
-<div align="center">
-
-*Submitted as part of the CS & AI Data Analysis Project — UCI Diabetes Dataset (Problem 9)*
-
-</div>
